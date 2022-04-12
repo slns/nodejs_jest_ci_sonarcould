@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "Sergio Santos",
   "scripts": {
-    "test": "./node_modules/.bin/jest",
+    "test": "jest --coverage",
     "code:coverage": "./node_modules/.bin/jest --coverage",
     "lint": "eslint .  --ext .js",
     "lint-fix": "eslint --fix .  --ext .js"
