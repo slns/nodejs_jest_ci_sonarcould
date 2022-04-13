@@ -19,6 +19,10 @@ if [ -d "/var/opt/sonar-scanner-4.7.0.2747-linux" ];then
 fi
 sudo mv sonar-scanner-4.7.0.2747-linux /var/opt
 
+sudo export PATH=/var/opt/sonar-scanner-4.7.0.2747-linux/bin:$PATH
+
+sudo chmod 777  -R ./
+
 echo "Installation completed successfully."
 
 echo "You can use sonar-scanner!"
