@@ -1,0 +1,6 @@
+projectKey=slns_nodejs_jest_ci_sonarcould
+serverUrl=http://localhost:9001
+serverVersion=9.4.0.54424
+dashboardUrl=http://localhost:9001/dashboard?id=slns_nodejs_jest_ci_sonarcould
+ceTaskId=AYAif-f-kF8Ku-rU5ijZ
+ceTaskUrl=http://localhost:9001/api/ce/task?id=AYAif-f-kF8Ku-rU5ijZ
